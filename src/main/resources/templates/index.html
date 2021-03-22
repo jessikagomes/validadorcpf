@@ -12,14 +12,14 @@
   <body>
     <form action="/valida-cpf" method="GET" onsubmit="return validaCampos()">
         <div class="container">
-            <h1>Validador de CPF</h1>
+          <h1>Validador de CPF</h1>
             <div class="mb-3">
                 <label for="nome" class="form-label">Nome Completo</label>
-                <input type="text" class="form-control" id="nomecompleto" placeholder="Digite seu nome">
+                <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome">
             </div>
             <div class="mb-3">
                 <label for="cpf" class="form-label">CPF</label>
-                <input type="number" class="form-control" id="numerodocpf" placeholder="Somente números">
+                <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Somente números">
             </div>
             <button type="submit" class="btn btn-dark">Enviar</button>
         </div>
